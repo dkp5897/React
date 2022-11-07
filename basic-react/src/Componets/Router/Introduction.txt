@@ -1,0 +1,41 @@
+What is Router ? 
+
+1.  It is a fully featured client and server side routing library for React
+2.  It helps to create and navigate b/w different URLs that makeup your web page application
+3.  Provide unique URL for different components in the app and make the UI easily sharable with others
+
+
+React Router:-
+
+The process of directing a user to different pages based on their action or request is known as routing. In ReactJS the process of routing is used for developing Single Page Web Applications, mainly to define multiple routes in the application. The ReactJS provides a standard library system to create routing in the React application using React Router Package.
+
+
+Importance of React Router:
+
+To display multiple views in a single page application, React Router is important.
+It is not possible to display multiple views in React applications without the React Router.
+For rendering multiple views, React Router is used by most of the social media websites.
+ 
+
+Advantages Of React Router:
+
+(1)    It is not mandatory in React Router to set the browser history manually.
+(2)    The internal links can be navigated using the Links in the application.
+(3)    Switch feature is used in React Router for rendering.
+(4)    Only a Single Child element is needed.
+(5)    Every component is specified in the React Router.
+ 
+
+React Router Installation:
+
+There are three different packages for routing in ReactJS.
+
+react-router: The core routing components and functions for the React Router applications is provided by the react-router.
+react-router-native: For mobile applications, react-router-native is used.
+react-router-dom: For web applications design, react-router-dom is used.
+The react-router-dom modules need to be installed in the user’s application, to use react routing, as it is not possible to install react-router directly.
+
+
+Command: 
+
+$ npm install react-router-dom --save

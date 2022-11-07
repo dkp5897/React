@@ -1,0 +1,29 @@
+useReducer is a hook that is used for state management in Recat.
+it is an alternative to useState
+useState is built using useReducer
+
+import React, { useReducer } from "react"
+
+useState - state
+useEffect - side Effect
+usecontext - context api
+useReducer - reducer
+
+reduce vs useReducer
+
+reduce in Javascript                             useReducer in React
+array.reduce(reducer,initialValue)                useReducer(reducer,initialState)
+singleValue = reducer(accumulator, itemVlaue)     newState = reducer(currentState , action)
+reduce method return a single value               useReducer return a pair of value[newState , dispatch]
+
+
+Syntax
+The useReducer Hook accepts two arguments.
+
+useReducer(<reducer>, <initialState>)
+
+The reducer function contains your custom state logic and the initialState can be a simple value but generally will contain an object.
+
+The useReducer Hook returns the current state and a dispatchmethod.
+
+Here is an example of useReducer in a counter app:

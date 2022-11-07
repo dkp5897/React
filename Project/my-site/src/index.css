@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+  background-color: #fff;
+}
+
+.navbar-brand{
+  font-size: 1.9rem !important;
+  color: #565387 !important;
+}
+
+.navbar a{
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+
+.navbar a:hover{
+  color: #3498db
+}
+
+.menu_active{
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}

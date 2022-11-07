@@ -1,0 +1,50 @@
+{
+  "product": [
+    {
+      "title": "javascript",
+      "amount": 4000,
+      "duration": 2,
+      "id": 1
+    },
+    {
+      "title": "html",
+      "amount": 7000,
+      "duration": 9,
+      "id": 4
+    },
+    {
+      "title": "java",
+      "amount": "4500",
+      "duration": "40",
+      "id": 6
+    },
+    {
+      "title": "react",
+      "amount": "14000",
+      "duration": "50",
+      "id": 7
+    }
+  ],
+  "classproduct": [
+    {
+      "id": 1,
+      "name": "mobile",
+      "amount": 15000
+    },
+    {
+      "id": 2,
+      "name": "laptop",
+      "amount": 45000
+    },
+    {
+      "name": "car",
+      "amount": "15400",
+      "id": 3
+    },
+    {
+      "name": "van",
+      "amount": "14500",
+      "id": 4
+    }
+  ]
+}

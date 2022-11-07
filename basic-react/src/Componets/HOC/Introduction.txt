@@ -1,0 +1,11 @@
+HOC: Higher order component:-
+
+It it a function which takes a component as an arguments and return a new component
+HOC is used to share common functionality to different components
+
+const NewComponent = higherOrderComponent(OriginalComponent)
+const EnhancedComponent = higherOrderComponent(OriginalComponent)
+
+const IronMan = WithSuit(TonyStark)
+
+Whereas a component transforms props into UI, a higher-order component transforms a component into another component.

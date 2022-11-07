@@ -1,0 +1,7 @@
+This is the second phase of the React lifecycle. A component is updated when there is a change in state and props React basically has five built-in methods that are called while updating the components.
+
+1.    getDerivedStateFromProps()
+2.    shouldComponentUpdate()
+3.    render()
+4.    getSnapshotBeforeUpdate()
+5.    componentDidUpdate()

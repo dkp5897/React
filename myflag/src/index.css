@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 300px;
+  height: 150px;
+  border: 1px solid;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 5px;
+}
+.main {
+  width: 500px;
+  height: 300px;
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 5px;
+}
+button {
+  width: 150px;
+  height: 60px;
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  border-radius: 15px;
+  font-weight: 600;
+  box-shadow: 0px 0px 14px 5px white;
+  cursor: pointer;
+}
+body {
+  background-color: grey;
+}
