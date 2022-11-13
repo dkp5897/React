@@ -5,18 +5,20 @@ import Main from './Components/Main';
 import Navbar from './Components/Navbar';
 import Table from './Components/Table/Table';
 import Form from './Components/Form/Form';
+import ReducerMain from './ReducerTodoList/ReducerMain';
 
 
 function App() {
 
   return (
     <div className="App">
-      <Navbar/>
+      {/* <Navbar/> */}
       {/* <Routes>
         <Route path='/' element={<Table/>} />
         <Route path='/form' element={<Form/>}/>
       </Routes> */}
-      <Main/>
+      {/* <Main/> */}
+      <ReducerMain/>
     </div>
   );
 }

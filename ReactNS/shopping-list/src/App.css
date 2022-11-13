@@ -1,5 +1,10 @@
-.btnStyle{
-  /* background-color: aquamarine; */
+/* .btnStyle{
+  background-color: aquamarine;
   display: flex;
   justify-content: space-around;
+} */
+
+.App{
+  text-align: center;
+  margin-top: 20px;
 }
