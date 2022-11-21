@@ -2,7 +2,7 @@
 import React from 'react'
 
 function Hero({heroName}) {
-    if(heroName==='Joker')
+    if(heroName==='Jokar')
     {
         throw new Error('Not a Hero')
     }
