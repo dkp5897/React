@@ -2,7 +2,7 @@ import React from 'react'
 import About from '../Pages/About'
 import ContactUs from '../Pages/ContactUs'
 import Home from '../Pages/Home'
-import {BrowserRouter as Router, Link, Route, Routes,} from 'react-router-dom'
+import { Route, Routes,} from 'react-router-dom'
 import Navbar from './Navbar'
 import Product from '../Pages/Product'
 import OrderSummary from '../Pages/OrderSummary'
@@ -10,6 +10,8 @@ import NoMatch from '../Pages/NoMatch'
 import Productss from '../Pages/NestedRouting/Productss'
 import FeaturesProducts from '../Pages/NestedRouting/FeaturesProducts'
 import NewProducts from '../Pages/NestedRouting/NewProducts'
+import Users from '../Pages/DynamicRoutes/Users'
+import UserDetails from '../Pages/DynamicRoutes/UserDetails'
 
 function RouterComponent() {
   return (
@@ -26,6 +28,14 @@ function RouterComponent() {
               <Route path='features' element={<FeaturesProducts/>}/>
               <Route path='new' element={<NewProducts/>}/>
             </Route>
+            <Route path='users' element={<Users/>}/>
+
+            {/* instead of using like this use dynamic routing */}
+            {/* <Route path='users/1' element={<UserDetails/>}/>
+            <Route path='users/2' element={<UserDetails/>}/>
+            <Route path='users/3' element={<UserDetails/>}/> */}
+
+            <Route path='users/:userId' element={<UserDetails/>}/>  {/* this will works for unlimited amount of list, userId can be any string */}
 
             <Route exact path='*' element={<NoMatch/>}/>
         </Routes>
